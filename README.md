@@ -46,9 +46,10 @@ For more options: `clipman -h`.
 
 Run `clipman store` with the `--no-persist` option if you are affected. Unfortunately, it seems that there is no way to make them play well together.
 
-## Versions
+## Status
 
-This projects follows SemVer conventions.
+Supporting images or fixing the known issues would require a complete rewrite using wlroots directly.
+Clipman is considered feature complete and is now in maintanance mode.
 
 ## License
 
