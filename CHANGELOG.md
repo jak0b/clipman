@@ -1,3 +1,13 @@
+# 1.6.1
+
+**Notable bug fixes**
+
+- properly deal with Windows-style newlines
+
+**Other changes**
+
+- improve man pages
+
 # 1.6.0
 
 **New features**
