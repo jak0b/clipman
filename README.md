@@ -2,6 +2,10 @@
 
 A basic clipboard manager for Wayland, with support for persisting copy buffers after an application exits.
 
+## Bugs
+
+When you experience a clipboard-related bug, try to see if it still happens without clipman running, as it's more likely to be caused by one of our own known issues rather than wl-clipboard.
+
 ## Installing
 
 ### From source
