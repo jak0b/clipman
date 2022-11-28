@@ -41,6 +41,8 @@ func selector(data []string, max int, tool, prompt, toolArgs string, null bool) 
 			strconv.Itoa(max)}
 	case "bemenu":
 		args = []string{"bemenu", "--prompt", prompt, "--list", strconv.Itoa(max)}
+  case "fuzzel":
+		args = []string{"fuzzel", "--dmenu", "--prompt", prompt, "--lines", strconv.Itoa(max)}
 	case "rofi":
 		args = []string{"rofi", "-p", prompt, "-dmenu",
 			"-lines",

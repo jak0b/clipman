@@ -77,7 +77,7 @@ func main() {
 			smartLog(err.Error(), "critical", *alert)
 		}
 	case "pick":
-		selection, err := selector(history, *maxPicker, *pickTool, "pick", *pickToolArgs, *pickEsc)
+		selection, err := selector(history, *maxPicker, *pickTool, "clipboard history ➤  ", *pickToolArgs, *pickEsc)
 		if err != nil {
 			smartLog(err.Error(), "normal", *alert)
 		}
